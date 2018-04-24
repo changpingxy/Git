@@ -1,0 +1,48 @@
+
+查询登录名：git config --global user.naem  
+ 没有的话可以设置  git config --global user.naem "登录名"
+
+
+查询邮箱号：git config --global user.email 
+ 没有的话可以设置  git config --global user.email "邮箱号"
+
+
+ssh-keygen -t rsa -C "邮箱号"  注册生成秘钥key
+ssh-keygen -t rsa -C "<user-emailaddress>"
+
+ssh-T git@github.com 查询下生成秘钥是否成功
+
+
+git init 初始化
+git add .
+git commit -m "描述"
+git remote add origin git@github.com:<user-name>/<project-name>.git 关联自己GitHub上的origin远程库的仓库
+
+
+git diff (本地添加)
+git add.
+git commit -m "描述"
+git log 展示提交次数 详细情况
+git push
+
+
+发生冲突后
+git pull  远程仓库和本地合并
+git add.
+git commit -m ""
+git log 展示提交次数 详细情况
+git push
+
+
+git branch  查看分支
+git branch  <分支名> 创建
+
+git checkout  切换分支
+git checkout  -b <分支名> 创建并切换
+
+git merge <分支名>
+git branch -d 分支名 删除
+
+
+.gitignore 文件
+/node-modules/ 忽略文件
