@@ -21,7 +21,7 @@ git commit -m "描述"
 git remote add origin git@github.com:<user-name>/<project-name>.git 关联自己GitHub上的origin远程库的仓库
 
 
-git diff (本地添加)
+git diff . 查看修改内容(本地添加)
 git add.
 git commit -m "描述"
 git log 展示提交次数 详细情况
