@@ -9,6 +9,9 @@
 ssh-keygen -t rsa -C "邮箱号"  注册生成秘钥key
 ssh-keygen -t rsa -C "<user-emailaddress>"
 
+输入以下命令，红框中的内容就是ssh key，将其复制下来
+cat ~/.ssh/id_rsa.pub
+
 ssh-T git@github.com 查询下生成秘钥是否成功
 
 
