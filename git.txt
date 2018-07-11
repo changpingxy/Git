@@ -1,5 +1,5 @@
-查询登录名：git config --global user.naem  
- 没有的话可以设置  git config --global user.naem "登录名"
+查询登录名：git config --global user.name  
+ 没有的话可以设置  git config --global user.name  "登录名"
 
 
 查询邮箱号：git config --global user.email 
