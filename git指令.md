@@ -1,4 +1,4 @@
-# git 指令
+﻿# git 指令
 --------------------------
 
 ## 配置
@@ -91,5 +91,35 @@
 * `git push github <branch-name>`
 * `git push gitee <branch-name>`
 
+删除本地仓库
+git checkout master # 切换到master分支
+git branch -d dev # 删除本地dev分
+
+删除远程仓库  勿操作 危险命令
+git push origin :分支名
+（git push origin :dev）     
+
+
+在本地
+git checkout -b dev 新建并切换到本地dev分支
+
+git pull origin dev 本地分支与远程分支相关联
+
+在本地新建分支并推送到远程
+git checkout -b test
+
+git push origin test 这样远程仓库中也就创建了一个test分支
+
+
+开发代码之后，我们有两个选择
+第一个：如果功能开发完成了，可以合并主分支
+git checkout master # 切换到主分支
+git merge dev # 把dev分支的更改和master合并
+git push # 提交主分支代码远程
+git checkout dev # 切换到dev远程分支
+git push # 提交dev分支到远程
+
+第二个：如果功能没有完成，可以直接推送
+git push # 提交到dev远程分支
 
 
