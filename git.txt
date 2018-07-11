@@ -1,3 +1,4 @@
+Git
 
 查询登录名：git config --global user.naem  
  没有的话可以设置  git config --global user.naem "登录名"
