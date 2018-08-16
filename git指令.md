@@ -97,8 +97,8 @@ git checkout master # 切换到master分支
 git branch -d dev # 删除本地dev分
 
 删除远程仓库  勿操作 危险命令
-git push origin :分支名
-（git push origin :dev）     
+git push origin -d 分支名
+（git push origin -d dev）     
 
 
 在本地

@@ -82,3 +82,12 @@ git push # 提交dev分支到远程
 
 第二个：如果功能没有完成，可以直接推送
 git push # 提交到dev远程分支
+
+删除本地仓库
+git checkout master # 切换到master分支
+git branch -d dev # 删除本地dev分
+
+删除远程仓库  勿操作 危险命令
+(git push origin --delete 分支名)
+git push origin -d 分支名
+（git push origin -d dev） 
